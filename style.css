@@ -1,5 +1,56 @@
+@font-face {
+    font-family: "ML";
+    src: url(./fonts/matter-light.ttf);
+}
+
+@font-face {
+    font-family: "MR";
+    src: url(./fonts/matter-regular.ttf);
+}
+
+@font-face {
+    font-family: "RF";
+    src: url(./fonts/roboto-flex-variable-full.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+
+}
+
+nav{
+    width: 100%;
+    padding: 30px 50px;
+    font-family: "MR";
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav img{
+    width: 4vw;
+}
+
+#navlinks{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
