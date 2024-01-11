@@ -22,6 +22,7 @@
 html body{
     width: 100%;
     height: 100%;
+    font-family: "MR";
 }
 
 #main{
@@ -54,3 +55,76 @@ nav img{
     gap: 40px;
 }
 
+#home #homemain{
+    width: 100%;
+    padding: 13vw 17vw;
+    /* background-color: red; */
+}
+
+#homemain{
+    font-family: "ML";
+    font-size: .65vw;
+    font-weight: 100;
+}
+
+.headings{
+    display: flex;
+    gap:40px;
+}
+
+.headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 6vw;
+    font-family: "MR" ;
+    letter-spacing: -3px;
+    line-height: 1;
+}
+
+#home #homelast{
+    font-size: 1.5vw;
+    padding-top: 15vw;
+    font-family: "MR";
+    width: 45vw;
+
+}
+
+#home #homelast p::selection{
+    color: white;
+    background-color: black;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+
+.fheading{
+    line-height: 1;
+    font-family: "ML";
+    font-size: 1.3vw;
+}
+
+.fheading :nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+
+#featuredimages{
+    width: 100%;
+    margin-top: 3vw;
+    min-height: 100vh;
+    border:  1px solid red;
+}
+
+#fleft{
+    width: 50%;
+    min-height: inherit;
+    border:  1px solid blue;
+}
+
+#fright{
+    width: 50%;
+    min-height: inherit;
+    border:  1px solid rgb(76, 168, 0);
+}
